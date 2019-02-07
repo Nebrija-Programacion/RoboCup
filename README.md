@@ -52,4 +52,6 @@ cd rcssmonitor-15.2.1/src/
 ```
 
 ### Empezar a programar
+
 Mira el ejemplo Hello RoboCup y empieza a programar!!
+Protocolo de comunicación: [manual](https://rcsoccersim.github.io/manual/soccerserver.html)
