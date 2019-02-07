@@ -4,7 +4,7 @@ Nebrija RoboCup Soccer 2D Simulation
 
 ## Instrucciones para instalar
 
-### Instalar dependencias
+### Instalar dependencias (Ubuntu 18.xx)
 
 ```
 sudo apt update
