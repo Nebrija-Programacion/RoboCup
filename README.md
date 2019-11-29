@@ -14,6 +14,8 @@ sudo apt install libboost-all-dev flex bison
 sudo apt install libfontconfig1-dev libaudio-dev libxt-dev
 sudo apt install libxi-dev
 sudo apt install libxrender-dev
+sudo apt install libglib2.0-0 libglib2.0-dev libglibd-2.0-dev
+
 ```
 
 ### Descargar Servidor y Monitor
