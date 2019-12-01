@@ -41,7 +41,7 @@ private:
     std::string dataToSend;
     QUdpSocket * udpSocket;
 
-    void printPlayerData() const;
+    void printPlayerData();
     void computePlayerData();
 
     // functions map

@@ -46,7 +46,9 @@ Player::Player(std::string const & teamName, QObject *parent) :
 
 void Player::processMsg(const std::string &msg)
 {
+
     if(msg.at(0) != '(') return;
+
     std::string submsg = msg.substr(1);
     std::string command = extractCommand(submsg);
     if(functionsMap.find(command) != functionsMap.end()){
@@ -103,20 +105,19 @@ void Player::computePlayerData()
 {
     if(playerData.status == "before_kick_off" && !playerData.positioned){
         playerData.positioned = true;
-        std::cout << "before kick off" << std::endl;
         switch(playerData.number){
         case 2:
-            dataToSend += "(move 0 0)";
+            dataToSend += "(move -1 -1)";
             playerData.x = 0;
             playerData.y = 0;
             break;
         case 3:
-            dataToSend += "(move 10 10)";
+            dataToSend += "(move -10 10)";
             playerData.x = 10;
             playerData.y = 10;
             break;
         default:
-            dataToSend += "(move 20 10)";
+            dataToSend += "(move -20 10)";
             playerData.x = 20;
             playerData.y = 10;
        }
