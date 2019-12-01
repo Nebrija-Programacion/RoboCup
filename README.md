@@ -43,17 +43,17 @@ make
 ### Lanzar servidor
 
 ```
-cd rcssserver-15.5.0/src
+cd src
 ./rcssserver
 ```
 
 ### Lanzar monitor
 ```
-cd rcssmonitor-15.2.1/src/
+cd src/
 ./rcssmonitor
 ```
 
 ### Empezar a programar
 
-Mira el ejemplo Hello RoboCup y empieza a programar!!
+Mira alguno de los ejemplos HelloRoboCup (programación orientada a objetos) y FunctionalRoboCup (programación funcional) y empieza a programar!!
 Protocolo de comunicación: [manual](https://rcsoccersim.github.io/manual/soccerserver.html)
